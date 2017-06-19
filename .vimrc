@@ -1,5 +1,5 @@
-:set paste " Proper format when copying from outside
-:set number " Set line number
+set paste " Proper format when copying from outside
+set number " Set line number
 
 set tabstop=4 " Spaces per visual TAB
 set softtabstop=4 " Inserted spaces when TAB
@@ -17,7 +17,7 @@ set incsearch " Search as characters are entered
 set hlsearch " Highlight searches
 set showcmd " Show command in bottom bar
 
-set statusline+=%F " All fill line to the status line
+set statusline+=%F\ %l\:%c " All fill line to the status line
 set laststatus=2
 
 " Scope to search within project files
