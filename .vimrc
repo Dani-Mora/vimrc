@@ -43,3 +43,9 @@ colorscheme elflord
 " Set 80-column-length limit
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+
+" Move visual selection
+" After select, J to move down, K to move up
+vnoremap J :m '>+1<cr>gv=gv
+vnoremap K :m '<-2<cr>gv=gv
+
